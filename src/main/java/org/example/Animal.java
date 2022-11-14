@@ -1,6 +1,6 @@
 package org.example;
-abstract class Animal {
+public abstract class Animal {
     String name;
-
-    public abstract void makesound();
+    public abstract void makeSound();
+    public abstract boolean eat(String);
 }
