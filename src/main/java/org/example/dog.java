@@ -7,7 +7,7 @@ public class dog extends Animal {
     }
 
     @Override
-    public boolean eat() {
+    public boolean eat(String foodtype) {
         return true;
     }
 }
