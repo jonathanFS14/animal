@@ -11,9 +11,9 @@ public class cat extends Animal {
     @Override
     public void showMood(boolean mood) {
         if (mood == true){
-            System.out.println("logrer");
+            System.out.println("spinder");
         }
-        else System.out.println("knurrer");
+        else System.out.println("hvæser");
 
     }
 }
